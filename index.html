@@ -7,37 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athlete</title>
 </head>
-
 <body>
-    <header>
-        <div class="namelogo">
-            <h1>Athlete</h1>
-            <p>gym station</p>
-
+    <header class="header">
+        <div class="header__logo">
+            <h1 class="header__site-name">Athlete</h1>
+            <p class="header__epithet">gym station</p>
         </div>
-
-
-        <div class="navig">
-            <ul>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#price">Pricing</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div class="motiv">
-            <h3 class="general">Take care of your health with our exercise plans.</h3>
-            <p>
+        <nav class="header__navigation navigation">
+            <a class="navigatoin__link" href="#about">About us</a>
+            <a class="navigatoin__link" href="#price">Pricing</a>
+            <a class="navigatoin__link" href="#career">Career</a>
+            <a class="navigatoin__link" href="#contact">Contact</a>
+            
+        </nav>
+        <div class="header__motivation motivation">
+            <h3 class="motivation__title general">Take care of your health with our exercise plans.</h3>
+            <p class="motivation__paragraph">
                 We have been creating and implementing projects for many years
                 all over the world, we have hundreds of satisfied customers.
             </p>
         </div>
-        <div id="about">
-            <div>
-                <h3>Experience</h3>
-                <p>
+    </header>
+    <main>
+        
+        <section id="about">
+            <div class="about__experiace experience">
+                <h3 class="experiance__title">Experience</h3>
+                <p >
                     Our specialists take care of your form and they will check and talk to you
                     if you have any questions during the execution of the exercise plans.
                 </p>
@@ -63,7 +59,7 @@
                 <div>
                     <p id="grandsize">1400+</p>
                     <h3>Satisfied customers</h3>
-                    <!-- <img src="ourcustomers.jpg" alt="our customers"> -->
+                    <img src="img/ourcustomers.jpg" alt="our customers">
                     <p>
                         So many people have already trusted us.
                         This number is constantly growing thanks to the positive feedback from our customers.
@@ -85,7 +81,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
         <div id="price">
             <div id="stadart_pack">
                 <p>Standard</p>
@@ -116,7 +112,7 @@
             </div>
         </div>
         <div id="career">
-            <!-- <img src="tricgirl.jpg" alt="just girl"> -->
+            <img src="img/tricgirl.jpg" alt="just girl">
             <div>
                 <h3>Search Our Joblist</h3>
                 <p>
@@ -178,6 +174,7 @@
         <p>New York, str. Best 1</p>
         <p>Copyright © 2022 Suprimo. All right reserved.</p>
     </footer>
-    
+
 </body>
+
 </html>
