@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athlete</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__logo">
@@ -18,7 +19,7 @@
             <a class="navigatoin__link" href="#price">Pricing</a>
             <a class="navigatoin__link" href="#career">Career</a>
             <a class="navigatoin__link" href="#contact">Contact</a>
-            
+
         </nav>
         <div class="header__motivation motivation">
             <h3 class="motivation__title general">Take care of your health with our exercise plans.</h3>
@@ -29,91 +30,80 @@
         </div>
     </header>
     <main>
-        
-        <section id="about">
-            <div class="about__experiace experience">
+
+        <section class="about" id="about">
+            <div class="about__experiace experience about__container">
                 <h3 class="experiance__title">Experience</h3>
-                <p >
+                <p>
                     Our specialists take care of your form and they will check and talk to you
                     if you have any questions during the execution of the exercise plans.
                 </p>
-                <a href="#">Read more</a>
+                <a class="experiance__button-read-more button-read-more" href="#">Read more</a>
             </div>
-            <div>
-                <h3>Coach trainer</h3>
-                <p>
+            <div class="about__our-treiner our-treiner about__container">
+                <h3 class="our-treiner__title">Coach trainer</h3>
+                <p class="our-treiner__paragraph">
                     Our personal trainers are available for you, you can send an inquiry
                     at any time or call your trainer. Use the price list and choose the right plan for you.
                 </p>
-                <a href="#">Read more</a>
+                <a class="our-treiner__button-read-more button-read-more" href="#">Read more</a>
             </div>
-            <div>
-                <h3>Nutritional diet</h3>
-                <p>
+            <div class="about__diet diet about__container">
+                <h3 class="diet__title">Nutritional diet</h3>
+                <p class="diet__paragraph">
                     You will also get access to a premium account, thanks to which you will
                     have access to articles with advice and tips for cooking.
                 </p>
-                <a href="#">Read more</a>
+                <a class="diet__button-read-more button-read-more" href="#">Read more</a>
             </div>
-            <div>
-                <div>
-                    <p id="grandsize">1400+</p>
-                    <h3>Satisfied customers</h3>
-                    <img src="img/ourcustomers.jpg" alt="our customers">
-                    <p>
-                        So many people have already trusted us.
-                        This number is constantly growing thanks to the positive feedback from our customers.
-                    </p>
-                </div>
-                <div>
-                    <p class="general">Get in shape and training at the gym or home.</p>
-                    <p>
-                        We have been creating and implementing projects for many years all
-                        over the world, we have hundreds of satisfied customers.
-                    </p>
 
-                </div>
-                <div>
-                    <p class="general">Dedicated training plan prepared for you.</p>
-                    <p>
-                        We create dietary and training plans so that you can achieve
-                        the best results in the shortest possible time.
-                    </p>
-                </div>
+            <div class="about__customers customers">
+                <img class="customers__image" src="img/ourcustomers.jpg" alt="our customers">
+                <p class="customers__quantity" id="grandsize">1400+</p>
+                <h3 class="customers__title">Satisfied customers</h3>
+                <p class="customers__paragraph">
+                    So many people have already trusted us.
+                    This number is constantly growing thanks to the positive feedback from our customers.
+                </p>
+                <h3 class="customers__title">Get in shape and training at the gym or home.</h3>
+                <p class="customers__paragraph">
+                    We have been creating and implementing projects for many years all
+                    over the world, we have hundreds of satisfied customers.
+                </p>
             </div>
         </section>
-        <div id="price">
-            <div id="stadart_pack">
-                <p>Standard</p>
-                <p class="money">$29 / Month</p>
-                <ul>
-                    <li>Personal trainer</li>
-                    <li>Dedicated Training plan</li>
+        <section class="price" id="price">
+            <div class="price__stadart-pack stadart-pack">
+                <h3 class="stadart-pack__title">Standard</h3>
+                <p class="stadart-pack__money">$29 / Month</p>
+                <ul class="stadart-pack__serveces serveces">
+                    <li class="serveces__item">Personal trainer</li>
+                    <li class="serveces__item">Dedicated Training plan</li>
                 </ul>
             </div>
-            <div id="medium_pack">
-                <p>Medium</p>
-                <p class="money">$39 / Month</p>
-                <ul>
-                    <li>Personal trainer</li>
-                    <li>Dedicated Training plan</li>
-                    <li>Premium support for Diets</li>
+            <div class="price__medium-pack medium-pack">
+                <h3 class="medium-pack__title">Medium</h3>
+                <p class="medium-pack__money">$39 / Month</p>
+                <ul class="medium-pack__serveces serveces">
+                    <li class="serveces__item">Personal trainer</li>
+                    <li class="serveces__item">Dedicated Training plan</li>
+                    <li class="serveces__item">Premium support for Diets</li>
                 </ul>
             </div>
-            <div id="premium_pack">
-                <p>Premium</p>
-                <p class="money">$49 / Month</p>
-                <ul>
-                    <li>Personal trainer</li>
-                    <li>Dedicated Training plan</li>
-                    <li>Premium support for Diets</li>
-                    <li>Access to nutrients</li>
+            <div class="price__premium-pack premium-pack">
+                <h3 class="premium-pack__title">Premium</h3>
+                <p class="premium-pack__money">$49 / Month</p>
+                <ul class="premium-pack__serveces serveces">
+                    <li class="serveces__item">Personal trainer</li>
+                    <li class="serveces__item">Dedicated Training plan</li>
+                    <li class="serveces__item">Premium support for Diets</li>
+                    <li class="serveces__item">Access to nutrients</li>
                 </ul>
             </div>
-        </div>
-        <div id="career">
-            <img src="img/tricgirl.jpg" alt="just girl">
-            <div>
+        </section>
+        <section class="career" id="career">
+            <img class="career__image" src="img/tricgirl.jpg" alt="girl have training">
+            <div class="career__joblist joblist">
                 <h3>Search Our Joblist</h3>
                 <p>
                     If you are looking for a job and want to join our group, we are
@@ -137,8 +127,8 @@
                     <td>Half Time Job</td>
                 </tr>
             </table>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact">
             <h3>Contact</h3>
             <form action="URL">
                 <p>Full name:</p>
@@ -161,7 +151,7 @@
                 </label>
                 <input type='submit' value='Send'>
             </form>
-        </div>
+        </section>
     </main>
     <footer>
         <ul>
