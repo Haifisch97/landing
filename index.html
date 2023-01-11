@@ -19,7 +19,6 @@
             <a class="navigatoin__link" href="#price">Pricing</a>
             <a class="navigatoin__link" href="#career">Career</a>
             <a class="navigatoin__link" href="#contact">Contact</a>
-
         </nav>
         <div class="header__motivation motivation">
             <h3 class="motivation__title general">Take care of your health with our exercise plans.</h3>
@@ -29,10 +28,10 @@
             </p>
         </div>
     </header>
-    <main>
 
+    <main>
         <section class="about" id="about">
-            <div class="about__experiace experience about__container">
+            <div class="about__experiace experience ">
                 <h3 class="experiance__title">Experience</h3>
                 <p>
                     Our specialists take care of your form and they will check and talk to you
@@ -40,7 +39,7 @@
                 </p>
                 <a class="experiance__button-read-more button-read-more" href="#">Read more</a>
             </div>
-            <div class="about__our-treiner our-treiner about__container">
+            <div class="about__our-treiner our-treiner ">
                 <h3 class="our-treiner__title">Coach trainer</h3>
                 <p class="our-treiner__paragraph">
                     Our personal trainers are available for you, you can send an inquiry
@@ -48,7 +47,7 @@
                 </p>
                 <a class="our-treiner__button-read-more button-read-more" href="#">Read more</a>
             </div>
-            <div class="about__diet diet about__container">
+            <div class="about__diet diet ">
                 <h3 class="diet__title">Nutritional diet</h3>
                 <p class="diet__paragraph">
                     You will also get access to a premium account, thanks to which you will
@@ -103,66 +102,70 @@
         </section>
         <section class="career" id="career">
             <img class="career__image" src="img/tricgirl.jpg" alt="girl have training">
-            <div class="career__joblist joblist">
-                <h3>Search Our Joblist</h3>
-                <p>
+            <div class="career__joblist">
+                <h3 class="career__title">Search Our Joblist</h3>
+                <p class="career__paragraph">
                     If you are looking for a job and want to join our group, we are
                     constantly recruiting new employees for the indicated positions.
                 </p>
             </div>
-            <table>
-                <tr>
-                    <th>Management</th>
-                    <th>Personal Trainer</th>
-                    <th>Healthy</th>
+            <table class="career__table">
+                <tr class="career__job-area">
+                    <th class="career__table-header">Management</th>
+                    <th class="career__table-header">Personal Trainer</th>
+                    <th class="career__table-header">Healthy</th>
                 </tr>
-                <tr>
-                    <td>Professional Gym Manager</td>
-                    <td>Senior Personal Trainer</td>
-                    <td>Diets Personal</td>
+                <tr class="career__job-name">
+                    <td class="career__table-item">Professional Gym Manager</td>
+                    <td class="career__table-item">Senior Personal Trainer</td>
+                    <td class="career__table-item">Diets Personal</td>
                 </tr>
-                <tr>
-                    <td>Full Time Job</td>
-                    <td>Full Time Job</td>
-                    <td>Half Time Job</td>
+                <tr class="career__job-duration">
+                    <td class="career__table-item">Full Time Job</td>
+                    <td class="career__table-item">Full Time Job</td>
+                    <td class="career__table-item">Half Time Job</td>
                 </tr>
             </table>
         </section>
-        <section id="contact">
-            <h3>Contact</h3>
-            <form action="URL">
-                <p>Full name:</p>
-                <input type="text" placeholder="Jhon Smith" required>
-                <p>Email:</p>
-                <input type="email" placeholder="example@enymail.com" required>
-                <p>Phone number:</p>
-                <input type="text" placeholder="+123456789000" required>
-                <p>Message:</p>
-                <input type="text">
-                <p>Attachment File</p>
-                <p>
+        <section id="contacts">
+            <h3 class="contacts__title">Contact</h3>
+            <form class="contacts__aplicant-form aplicant-form" action="URL">
+                <label class="aplicant-form__lable" for="fullname">Full name:</label>
+                <input class="aplicant-form__input" id="fullname" name="fullname" type="text" placeholder="Jhon Smith"
+                    required>
+                <label class="aplicant-form__lable" for="email">Email:</label>
+                <input class="aplicant-form__input" id="email" name="email" type="email"
+                    placeholder="example@anysite.com" required>
+                <label class="aplicant-form__lable" for="phone">Phone number:</label>
+                <input class="aplicant-form__input" id="phone" name="phone" type="tel" placeholder="+123456789000"
+                    required>
+                <label class="aplicant-form__lable" for="message">Message:</label>
+                <input class="aplicant-form__input" id="message" name="message" type="text">
+                <label class="aplicant-form__lable" for="file">Attachment File</label>
+                <p class="aplicant-form__text">
                     Please attach your document with your CV. Please remember that the
                     file should be best in the .PDF document and should not be larger than [2MB]
                 </p>
-                <input type="file">
-                <input id="chek" type="checkbox">
-                <label for="chek">
-                    I agree to the <a href="#"> Privacy Policy.</a>
+                <input class="aplicant-form__input" id="file" type="file">
+                <input class="aplicant-form__input" name="privacy" id="chek" type="checkbox">
+                <label class="aplicant-form__lable" for="chek">
+                    I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
                 </label>
-                <input type='submit' value='Send'>
+                <input class="aplicant-form__submit-form" type='submit' value='Send'>
             </form>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#price">Pricing</a></li>
-            <li><a href="#career">Career</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <p>+123456789000</p>
-        <p>New York, str. Best 1</p>
-        <p>Copyright © 2022 Suprimo. All right reserved.</p>
+
+    <footer class="footer">
+        <div class="footer__navigation navigation">
+            <a class="navigatoin__link" href="#about">About us</a>
+            <a class="navigatoin__link" href="#price">Pricing</a>
+            <a class="navigatoin__link" href="#career">Career</a>
+            <a class="navigatoin__link" href="#contact">Contact</a>
+        </div>
+        <p class="footer__our-phone-number">+123456789000</p>
+        <p class="footer__our-location">New York, str. Best 1</p>
+        <p class="footer__shaper-name">Copyright © 2022 Suprimo.</p>
     </footer>
 
 </body>
