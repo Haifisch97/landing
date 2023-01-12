@@ -1,0 +1,60 @@
+
+.header { 
+    background-image: linear-gradient( to bottom,#ffffff00, var(--background-color)), url(../img/background-gym.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;  
+}
+.header__logo {
+    flex-shrink: 0;
+    padding-left: 20px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo p {
+    font-size: 1.5rem;
+}
+.navigation a {
+    font-size: 24px;
+    margin-right: 18px;
+    padding: 12px;
+    background-color: var(--box-color-dark);
+    border-radius: 15px;
+}
+
+.header__logo a {
+    font-size: 2rem;
+}
+
+header nav {
+    width: 50%;
+    flex-shrink: 0;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header__motivation {
+    padding-left: 20px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    width: 50%;
+}
+
+.motivation__paragraph {
+    width: 70%;
+    font-size: 16px;
+    color: var(--box-color-light);
+    margin-top: 20px;
+}
