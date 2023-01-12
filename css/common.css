@@ -1,3 +1,9 @@
+* {
+    --background-color: #06293DFF;
+    --box-color-light: #47B5FFFF;
+    --box-color-dark: #256D85FF;
+    --text-color: #DFF6FEFF;
+}
 :root {
     color: var(--text-color);
     background-color: var(--background-color);
