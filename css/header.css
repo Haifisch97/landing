@@ -1,9 +1,9 @@
 
 .header { 
     background-image: linear-gradient( to bottom,#ffffff00, var(--background-color)), url(../img/background-gym.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;  
+    background-position: top;
 }
 .header__logo {
     flex-shrink: 0;
