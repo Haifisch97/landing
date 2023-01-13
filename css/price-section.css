@@ -1,0 +1,17 @@
+.price {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price>div {
+    width: 400px;
+    height: 460px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--box-color-light);
+    border-radius: 10px;
+    padding: 40px;
+}
