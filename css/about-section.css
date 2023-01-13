@@ -81,7 +81,7 @@
 
 .about .customers .customers__image {
     scale: 0.7;
-    box-shadow: -300px 200px 80000px #47B5FF88;
+    box-shadow: -300px 200px 80000px var(--color-for-shadow);
     border-top-right-radius: 150px;
     border-bottom-left-radius: 150px;
 }

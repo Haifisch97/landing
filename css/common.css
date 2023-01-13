@@ -14,6 +14,7 @@ a {
     --background-color-dark: #031723;
     --box-color-light: #47B5FFFF;
     --box-color-dark: #256D85FF;
+    --color-for-shadow:#47B5FF88;
     --text-color: #DFF6FEFF;
     --max-page-width: 1280px;
 }
