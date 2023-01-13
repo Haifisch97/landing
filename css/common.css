@@ -1,10 +1,4 @@
 * {
-    --background-color: #06293DFF;
-    --background-color-dark: #031723;
-    --box-color-light: #47B5FFFF;
-    --box-color-dark: #256D85FF;
-    --text-color: #DFF6FEFF;
-    --max-page-width: 1280px;
     box-sizing: border-box;
     margin: 0px;
 }    
@@ -16,6 +10,12 @@ a {
     color: var(--text-color);
     background-color: var(--background-color);
     font-family: 'Poppins', sans-serif;
+    --background-color: #06293DFF;
+    --background-color-dark: #031723;
+    --box-color-light: #47B5FFFF;
+    --box-color-dark: #256D85FF;
+    --text-color: #DFF6FEFF;
+    --max-page-width: 1280px;
 }
 
 .general {
