@@ -32,10 +32,12 @@ header .container {
     background-color: var(--box-color-dark);
     border-radius: 15px;
     border: 2px solid var(--box-color-dark);
+    transition: 300ms;
 }
 
 .header__navigation a:hover {
     border: 2px solid var(--box-color-light);
+    transition: 300ms;
 }
 
 .header__logo a {
