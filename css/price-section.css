@@ -29,10 +29,11 @@
 
 .price div>h3 {
     display: inline;
+    text-align: center;
     font-size: 20px;
     font-weight: 400;
     background-color: var(--box-color-light);
-    padding: 6px 10px 6px 10px;
+    padding: 6px 0px 6px 0px;
     border-radius: 15px;
     
 }
