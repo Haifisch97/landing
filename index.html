@@ -159,27 +159,37 @@
         <section id="contacts">
             <h3 class="contacts__title">Contact</h3>
             <form class="contacts__aplicant-form aplicant-form" action="URL">
-                <label class="aplicant-form__lable" for="fullname">Full name:</label>
-                <input class="aplicant-form__input" id="fullname" name="fullname" type="text" placeholder="Jhon Smith"
-                    required>
-                <label class="aplicant-form__lable" for="email">Email:</label>
-                <input class="aplicant-form__input" id="email" name="email" type="email"
-                    placeholder="example@anysite.com" required>
-                <label class="aplicant-form__lable" for="phone">Phone number:</label>
-                <input class="aplicant-form__input" id="phone" name="phone" type="tel" placeholder="+123456789000"
-                    required>
-                <label class="aplicant-form__lable" for="message">Message:</label>
-                <input class="aplicant-form__input" id="message" name="message" type="text">
-                <label class="aplicant-form__lable">Attachment File</label>
-                <p class="aplicant-form__text">
-                    Please attach your document with your CV. Please remember that the
-                    file should be best in the .PDF document and should not be larger than [2MB]
-                </p>
-                <input class="aplicant-form__input" id="file" type="file">
-                <input class="aplicant-form__input" name="privacy" id="chek" type="checkbox">
-                <label class="aplicant-form__lable" for="chek">
-                    I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
-                </label>
+                <div class="container-name">
+                    <label class="aplicant-form__lable" for="fullname">Full name:</label>
+                    <input class="aplicant-form__input" id="fullname" name="fullname" type="text"
+                        placeholder="Jhon Smith" required>
+                </div>
+                <div class="container-email">
+                    <label class="aplicant-form__lable" for="email">Email:</label>
+                    <input class="aplicant-form__input" id="email" name="email" type="email"
+                        placeholder="example@anysite.com" required>
+                </div>
+                <div class="container-phone">
+                    <label class="aplicant-form__lable" for="phone">Phone number:</label>
+                    <input class="aplicant-form__input" id="phone" name="phone" type="tel" placeholder="+123456789000"
+                        required>
+                </div>
+                <div class="container-message">
+                    <label class="aplicant-form__lable" for="message">Message:</label>
+                    <input class="aplicant-form__input" id="message" name="message" type="text">
+                </div>
+                <div class="container-file">
+                    <label class="aplicant-form__lable">Attachment File</label>
+                    <p class="aplicant-form__text">
+                        Please attach your document with your CV. Please remember that the
+                        file should be best in the .PDF document and should not be larger than [2MB]
+                    </p>
+                    <input class="aplicant-form__input" id="file" type="file">
+                    <input class="aplicant-form__input" name="privacy" id="chek" type="checkbox">
+                    <label class="aplicant-form__lable" for="chek">
+                        I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
+                    </label>
+                </div>
                 <input class="aplicant-form__submit-form" type='submit' value='Send'>
             </form>
         </section>
