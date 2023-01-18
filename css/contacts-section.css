@@ -13,6 +13,7 @@
 .container-email {
     grid-area: 1/2/2/3;
 }
+
 .container-phone {
     grid-area: 1/3/2/4;
 }
