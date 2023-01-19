@@ -135,3 +135,8 @@ header .container {
     top: 43%;
     right: 0px;
 }
+@media (min-width:625px) {
+    .header .header__logo h1 {
+        font-size: 32px;
+    }
+}

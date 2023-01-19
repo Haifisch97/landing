@@ -103,3 +103,27 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media (min-width:625px) {
+    .about>.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        
+    }
+    .about div.card {
+        width: 98%;
+        margin: auto;    
+    }
+    #nutr-card {
+        grid-area: 2/1/3/3;
+        margin-top: 10px;
+    }
+    #exp-card {
+        grid-area: 1/1/2/2;
+    }
+    #coach-card {
+        grid-area: 1/2/2/3;
+    }
+}

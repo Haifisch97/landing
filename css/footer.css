@@ -12,14 +12,14 @@
 
 .footer__navigation a {
     font-size: 18px;
-    /* margin-right: 40px; */
     padding: 7px;
+    margin-top: 20px;
 }
 
-.footer__navigation a:hover {
+/* .footer__navigation a:hover {
     background-color: var(--box-color-dark);
     border-radius: 15px;
-}
+} */
 
 .footer .text-container {
     margin-top: 40px;
@@ -45,7 +45,11 @@
     border-radius: 3px;
 }
 
-/* p.footer__shaper-name {
-    text-align: right;
-
-} */
+@media (min-width:625px) {
+    .footer__navigation {
+        justify-content: center;
+    }
+    .footer__navigation a {
+        margin: 20px;
+    }
+}
