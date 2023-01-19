@@ -3,21 +3,20 @@
 }
 
 .about>.container {
-    display: flex;
     margin-bottom: 30px;
-    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .about div.card {
-    width: 400px;
-    height: 460px;
+    width: 100%;
+    min-height: 460px;
     border-width: 2px;
     border-style: solid;
     border-color: var(--box-color-light);
     border-radius: 10px;
     padding: 40px;
+    margin-bottom: 25px;
 }
 
 .about .container div img {
@@ -45,7 +44,7 @@
     background-image: linear-gradient(to right, var(--box-color-light), var(--box-color-dark));
     border-radius: 20px;
     margin-left: 20px;
-    transition: 0.5s;
+    transition: 0.4s;
 
 }
 
@@ -54,7 +53,7 @@
     ;
     padding: 8px 16px 8px 16px;
     border-radius: 25px;
-    transition: 0.5s;
+    transition: 0.4s;
     margin-left: 14px;
 }
 
@@ -68,28 +67,30 @@
     border-radius: 50%;
 }
 
-.about .customers {
+/* .about .customers {
     display: flex;
-}
+} */
 
 .about .customers .container {
-    width: 33.33333%;
+    /* width: 33.33333%;
     flex-direction: column;
-    justify-content: right;
+    justify-content: right; */
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about .customers .customers__image {
-    scale: 0.7;
+    width: 100%;
+    display: block;
     box-shadow: -300px 200px 80000px var(--color-for-shadow);
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 #grandsize {
-    font-size: 140px;
+    font-size: 90px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
 }
 
 .customers__title {

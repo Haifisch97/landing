@@ -23,7 +23,7 @@ header .container {
 }
 
 .header__logo p {
-    font-size: 1.5rem;
+    font-size: 18px;
 }
 
 .header__navigation a {
@@ -41,8 +41,8 @@ header .container {
     transition: 300ms;
 }
 
-.header__logo a {
-    font-size: 2rem;
+.header__logo h1 {
+    font-size: 24px;
 }
 
 header nav {
@@ -55,13 +55,18 @@ header nav {
 
 .header__motivation {
     padding-left: 20px;
-    margin-top: 200px;
-    margin-bottom: 300px;
-    width: 50%;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 100%;
 }
-
+.motivation__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+}
 .motivation__paragraph {
-    width: 70%;
+    width: 100%;
     font-size: 16px;
     color: var(--box-color-light);
     margin-top: 20px;

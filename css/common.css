@@ -21,10 +21,6 @@ a {
     --max-page-width: 1280px;
 }
 
-.general {
-    font-size: 64px;
-    line-height: 1;
-}
 
 main section {
     max-width: var(--max-page-width);

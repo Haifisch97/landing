@@ -82,13 +82,13 @@
                         So many people have already trusted us.
                         This number is constantly growing thanks to the positive feedback from our customers.
                     </p>
+                    <img class="customers__image" src="img/ourcustomers.jpg" alt="our customers">
                     <h3 class="customers__title">Get in shape and training at the gym or home.</h3>
                     <p class="customers__paragraph">
                         We have been creating and implementing projects for many years all
                         over the world, we have hundreds of satisfied customers.
                     </p>
                 </div>
-                <img class="customers__image" src="img/ourcustomers.jpg" alt="our customers">
             </div>
         </section>
         <section class="price" id="price">
@@ -156,7 +156,7 @@
                 </tr>
             </table>
         </section>
-        <section id="contacts">
+        <section class="contacts" id="contacts">
             <h3 class="contacts__title">Contact</h3>
             <form class="contacts__aplicant-form aplicant-form" action="URL">
                 <div class="container-name">
@@ -176,7 +176,7 @@
                 </div>
                 <div class="container-message">
                     <label class="aplicant-form__lable" for="message">Message:</label>
-                    <input class="aplicant-form__input" id="message" name="message" type="text">
+                    <textarea class="aplicant-form__input" id="message" name="message" type="text"></textarea>
                 </div>
                 <div class="container-file">
                     <label class="aplicant-form__lable">Attachment File</label>
@@ -184,9 +184,11 @@
                         Please attach your document with your CV. Please remember that the
                         file should be best in the .PDF document and should not be larger than [2MB]
                     </p>
-                    <input class="aplicant-form__input" id="file" type="file">
-                    <input class="aplicant-form__input" name="privacy" id="chek" type="checkbox">
-                    <label class="aplicant-form__lable" for="chek">
+                    <label class="aplicant-form__file-lable" for="file">Choose File
+                        <input class="aplicant-form__file-input" id="file" type="file">
+                    </label>
+                    <input class="aplicant-form__chek-input" name="privacy" id="chek" type="checkbox">
+                    <label class="aplicant-form__chek-lable" for="chek">
                         I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
                     </label>
                 </div>
@@ -194,9 +196,8 @@
             </form>
         </section>
     </main>
-<br>
     <footer class="footer">
-
+        <div class="separator-line"></div>
         <div class="footer__navigation navigation">
             <a class="navigatoin__link" href="#about">About us</a>
             <a class="navigatoin__link" href="#price">Pricing</a>
