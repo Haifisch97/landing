@@ -21,12 +21,17 @@
                 <p class="header__epithet">gym station</p>
             </div>
 
-            <nav class="header__navigation navigation">
-                <a class="navigatoin__link" href="#about">About us</a>
-                <a class="navigatoin__link" href="#price">Pricing</a>
-                <a class="navigatoin__link" href="#career">Career</a>
-                <a class="navigatoin__link" href="#contact">Contact</a>
+            <nav class="header__navigation navigation" id="top-nav">
+                <a class="navigatoin__link" href="#about" onclick="activeBurger()">About us</a>
+                <a class="navigatoin__link" href="#price" onclick="activeBurger()">Pricing</a>
+                <a class="navigatoin__link" href="#career" onclick="activeBurger()">Career</a>
+                <a class="navigatoin__link" href="#contacts" onclick="activeBurger()">Contact</a>
             </nav>
+            <div class="burger-menu" id="burger-bar" onclick="activeBurger()">
+                <span class="menu-bar top-line"></span>
+                <span class="menu-bar middle-line"></span>
+                <span class="menu-bar bottom-line"></span>
+            </div>
             <div class="header__motivation motivation">
                 <h3 class="motivation__title general">Take care of your health with our exercise plans.</h3>
                 <p class="motivation__paragraph">
@@ -211,7 +216,7 @@
         </div>
 
     </footer>
-
+<script src="css\jscript\scripts.js"></script>
 </body>
 
 </html>

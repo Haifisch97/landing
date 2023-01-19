@@ -8,16 +8,17 @@
 .header__logo {
     flex-shrink: 0;
     padding-left: 20px;
-    width: 50%;
+    width: auto;
     margin-top: 30px;
     margin-bottom: 40px;
+    z-index: 5;
 }
 
 header .container {
     display: flex;
     flex-wrap: wrap;
     max-width: var(--max-page-width);
-
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,16 +29,20 @@ header .container {
 
 .header__navigation a {
     font-size: 24px;
-    margin-right: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition-duration: 0.3s;
+    /* margin-right: 18px;
     padding: 12px;
     background-color: var(--box-color-dark);
     border-radius: 15px;
-    border: 2px solid var(--box-color-dark);
-    transition: 300ms;
+    border: 2px solid var(--box-color-dark); */
+    /* transition: 300ms; */
 }
 
 .header__navigation a:hover {
-    border: 2px solid var(--box-color-light);
+    font-weight: bold;
+    /* border: 2px solid var(--box-color-light); */
     transition: 300ms;
 }
 
@@ -45,13 +50,6 @@ header .container {
     font-size: 24px;
 }
 
-header nav {
-    width: 50%;
-    flex-shrink: 0;
-    margin: 0px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
 
 .header__motivation {
     padding-left: 20px;
@@ -60,14 +58,80 @@ header nav {
     margin-bottom: 150px;
     width: 100%;
 }
+
 .motivation__title {
     font-size: 48px;
     font-weight: 500;
     line-height: 1;
 }
+
 .motivation__paragraph {
     width: 100%;
     font-size: 16px;
     color: var(--box-color-light);
     margin-top: 20px;
+}
+
+.burger-menu {
+    position: relative;
+    padding: 5px;
+    height: 36px;
+    width: 36px;
+    margin: 20px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--box-color-light);
+    cursor: pointer;
+}
+
+.menu-bar {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--background-color);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.header__navigation {
+    position: fixed;
+    background-color: var(--box-color-dark);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 90px;
+    top: -100%;
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+
+.active {
+    top: 0%;
+    transition-duration: 0.3s;
+}
+
+.change .top-line {
+    transform: rotate(-45deg);
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 43%;
+    right: 0px;
+}
+
+.change .middle-line {
+    scale: 0;
+}
+
+.change .bottom-line {
+    transform: rotate(45deg);
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 43%;
+    right: 0px;
 }
