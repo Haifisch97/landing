@@ -80,3 +80,28 @@
         grid-area: 1/2/2/3;
     }
 }
+@media (min-width:1020px) {
+    #price {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    div.price__premium-pack {
+        grid-column: 3/4;
+        margin-top: 0px;
+        grid-area: auto;
+        height: 500px;
+    }
+    .price__standart-pack {
+        grid-column: 1/2;
+    }
+    .price__medium-pack {
+        grid-column: 2/3;
+        height: 450px;
+    }
+
+    .price>div {
+        width:350px ;
+        margin: auto;
+    }
+}

@@ -1,11 +1,10 @@
 .about {
     margin-bottom: 50px;
+    padding: 20px;
 }
 
 .about>.container {
     margin-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .about div.card {
@@ -67,18 +66,6 @@
     border-radius: 50%;
 }
 
-/* .about .customers {
-    display: flex;
-} */
-
-.about .customers .container {
-    /* width: 33.33333%;
-    flex-direction: column;
-    justify-content: right; */
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .about .customers .customers__image {
     width: 100%;
     display: block;
@@ -110,8 +97,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         justify-content: center;
-        
     }
+   
     .about div.card {
         width: 98%;
         margin: auto;    
@@ -125,5 +112,35 @@
     }
     #coach-card {
         grid-area: 1/2/2/3;
+    }
+}
+@media (min-width:860px) {
+    .about__customers {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+    .customers__image {
+        margin-top: 80px;
+    }
+    .about__customers>.container {
+        padding-right: 10px;
+    }
+
+}
+@media (min-width:1020px) {
+    .about>.container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    #nutr-card {
+        grid-column: 3/4;
+        grid-area: auto;
+        margin-top: 0px;
+    }
+    #exp-card {
+        grid-column: 1/2;
+    }
+    #coach-card {
+        grid-column: 2/3;
     }
 }

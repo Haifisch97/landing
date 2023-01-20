@@ -82,18 +82,18 @@
             <div class="about__customers customers">
                 <div class="container">
                     <p class="customers__quantity" id="grandsize">1400+</p>
-                    <h3 class="customers__title">Satisfied customers</h3>
+                    <h3 class="customers__title" >Satisfied customers</h3>
                     <p class="customers__paragraph">
                         So many people have already trusted us.
                         This number is constantly growing thanks to the positive feedback from our customers.
                     </p>
-                    <img class="customers__image" src="img/ourcustomers.jpg" alt="our customers">
                     <h3 class="customers__title">Get in shape and training at the gym or home.</h3>
                     <p class="customers__paragraph">
                         We have been creating and implementing projects for many years all
                         over the world, we have hundreds of satisfied customers.
                     </p>
                 </div>
+                <img class="customers__image" src="img/ourcustomers.jpg" alt="our customers">
             </div>
         </section>
         <section class="price" id="price">
@@ -162,43 +162,45 @@
             </table>
         </section>
         <section class="contacts" id="contacts">
-            <h3 class="contacts__title">Contact</h3>
-            <form class="contacts__aplicant-form aplicant-form" action="URL">
-                <div class="container-name">
-                    <label class="aplicant-form__lable" for="fullname">Full name:</label>
-                    <input class="aplicant-form__input" id="fullname" name="fullname" type="text"
-                        placeholder="Jhon Smith" required>
-                </div>
-                <div class="container-email">
-                    <label class="aplicant-form__lable" for="email">Email:</label>
-                    <input class="aplicant-form__input" id="email" name="email" type="email"
-                        placeholder="example@anysite.com" required>
-                </div>
-                <div class="container-phone">
-                    <label class="aplicant-form__lable" for="phone">Phone number:</label>
-                    <input class="aplicant-form__input" id="phone" name="phone" type="tel" placeholder="+123456789000"
-                        required>
-                </div>
-                <div class="container-message">
-                    <label class="aplicant-form__lable" for="message">Message:</label>
-                    <textarea class="aplicant-form__input" id="message" name="message" type="text"></textarea>
-                </div>
-                <div class="container-file">
-                    <label class="aplicant-form__lable">Attachment File</label>
-                    <p class="aplicant-form__text">
-                        Please attach your document with your CV. Please remember that the
-                        file should be best in the .PDF document and should not be larger than [2MB]
-                    </p>
-                    <label class="aplicant-form__file-lable" for="file">Choose File
-                        <input class="aplicant-form__file-input" id="file" type="file">
-                    </label>
-                    <input class="aplicant-form__chek-input" name="privacy" id="chek" type="checkbox">
-                    <label class="aplicant-form__chek-lable" for="chek">
-                        I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
-                    </label>
-                </div>
-                <input class="aplicant-form__submit-form" type='submit' value='Send'>
-            </form>
+            <div class="contacts-container">
+                <h3 class="contacts__title">Contact</h3>
+                <form class="contacts__aplicant-form aplicant-form" action="URL">
+                    <div class="container-name">
+                        <label class="aplicant-form__lable" for="fullname">Full name:</label>
+                        <input class="aplicant-form__input" id="fullname" name="fullname" type="text"
+                            placeholder="Jhon Smith" required>
+                    </div>
+                    <div class="container-email">
+                        <label class="aplicant-form__lable" for="email">Email:</label>
+                        <input class="aplicant-form__input" id="email" name="email" type="email"
+                            placeholder="example@anysite.com" required>
+                    </div>
+                    <div class="container-phone">
+                        <label class="aplicant-form__lable" for="phone">Phone number:</label>
+                        <input class="aplicant-form__input" id="phone" name="phone" type="tel"
+                            placeholder="+123456789000" required>
+                    </div>
+                    <div class="container-message">
+                        <label class="aplicant-form__lable" for="message">Message:</label>
+                        <textarea class="aplicant-form__input" id="message" name="message" type="text"></textarea>
+                    </div>
+                    <div class="container-file">
+                        <label class="aplicant-form__lable">Attachment File</label>
+                        <p class="aplicant-form__text">
+                            Please attach your document with your CV. Please remember that the
+                            file should be best in the .PDF document and should not be larger than [2MB]
+                        </p>
+                        <label class="aplicant-form__file-lable" for="file">Choose File
+                            <input class="aplicant-form__file-input" id="file" type="file">
+                        </label>
+                        <input class="aplicant-form__chek-input" name="privacy" id="chek" type="checkbox" required>
+                        <label class="aplicant-form__chek-lable" for="chek">
+                            I agree to the <a class="aplicant-form__link" href="#"> Privacy Policy.</a>
+                        </label>
+                    </div>
+                    <input class="aplicant-form__submit-form" type='submit' value='Send'>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -216,7 +218,7 @@
         </div>
 
     </footer>
-<script src="css\jscript\scripts.js"></script>
+    <script src="css\jscript\scripts.js"></script>
 </body>
 
 </html>

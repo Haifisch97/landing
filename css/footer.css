@@ -40,6 +40,9 @@
 }
 
 .separator-line {
+    max-width: var(--max-page-width);
+    margin-left: auto;
+    margin-right: auto;
     height: 2px;
     background-image: linear-gradient(to right, var(--box-color-light), var(--background-color-dark));
     border-radius: 3px;
