@@ -27,14 +27,14 @@
                 <a class="navigatoin__link" href="#career" onclick="activeBurger()">Career</a>
                 <a class="navigatoin__link" href="#contacts" onclick="activeBurger()">Contact</a>
             </nav>
-            <div class="burger-menu" id="burger-bar" onclick="activeBurger()">
-                <span class="menu-bar top-line"></span>
-                <span class="menu-bar middle-line"></span>
-                <span class="menu-bar bottom-line"></span>
+            <div class="header__burger-menu burger-menu" id="burger-bar" onclick="activeBurger()">
+                <span class="burger-menu__line top-line"></span>
+                <span class="burger-menu__line middle-line"></span>
+                <span class="burger-menu__line bottom-line"></span>
             </div>
-            <div class="header__motivation motivation">
-                <h3 class="motivation__title general">Take care of your health with our exercise plans.</h3>
-                <p class="motivation__paragraph">
+            <div class="header__motivation">
+                <h3 class="header__motivation__title">Take care of your health with our exercise plans.</h3>
+                <p class="header__motivation__paragraph">
                     We have been creating and implementing projects for many years
                     all over the world, we have hundreds of satisfied customers.
                 </p>
@@ -44,8 +44,8 @@
 
     <main>
         <section class="about" id="about">
-            <div class="container">
-                <div class="about__card card" id="exp-card">
+            <div class="about__container">
+                <div class="about__card card exp-card">
                     <div class="image-container">
                         <img class="card-image" src="img/star.png" alt="star icon">
                     </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="about__customers customers">
-                <div class="container">
+                <div class="customers__container">
                     <p class="customers__quantity" id="grandsize">1400+</p>
                     <h3 class="customers__title" >Satisfied customers</h3>
                     <p class="customers__paragraph">
@@ -218,7 +218,7 @@
         </div>
 
     </footer>
-    <script src="css\jscript\scripts.js"></script>
+    <script src="js\scripts.js"></script>
 </body>
 
 </html>

@@ -27,19 +27,19 @@ header .container {
     font-size: 18px;
 }
 
-.header__navigation a {
+.header__navigation .navigatoin__link {
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 30px;
     transition-duration: 0.3s;
 }
 
-.header__navigation a:hover {
+.header__navigation .navigatoin__link:hover {
     font-weight: bold;
     transition: 300ms;
 }
 
-.header__logo h1 {
+.header__site-name {
     font-size: 24px;
 }
 
@@ -52,13 +52,13 @@ header .container {
     width: 100%;
 }
 
-.motivation__title {
+.header__motivation__title {
     font-size: 48px;
     font-weight: 500;
     line-height: 1;
 }
 
-.motivation__paragraph {
+.header__motivation__paragraph {
     width: 100%;
     font-size: 16px;
     color: var(--box-color-light);
@@ -79,7 +79,7 @@ header .container {
     cursor: pointer;
 }
 
-.menu-bar {
+.burger-menu__line {
     display: block;
     height: 4px;
     width: 100%;
@@ -130,7 +130,7 @@ header .container {
 }
 
 @media (min-width:625px) {
-    .header .header__logo h1 {
+    .header__site-name {
         font-size: 32px;
     }
 }
@@ -153,7 +153,7 @@ header .container {
         z-index: 2;
     }
 
-    .header__navigation a {
+    .header__navigation .navigatoin__link {
         font-size: 24px;
         margin-right: 18px;
         padding: 12px;
@@ -162,13 +162,13 @@ header .container {
         border: 2px solid var(--box-color-dark);
     }
 
-    .header__navigation a:hover {
+    .header__navigation .navigatoin__link:hover {
         border: 2px solid var(--box-color-light);
         transition: 300ms;
     }
 }
 @media (min-width:860px) {
-    .header .header__logo h1 {
+    .header__site-name {
         font-size: 50px;
     }
     .header__motivation {
