@@ -20,6 +20,7 @@
     allSlides[activeSlideIndx].classList.add('active-slide')
   }
 
-  btnNext.addEventListener('click', nextSlide());
-  btnPrev.addEventListener('click', prevSlide());
+  btnNext.addEventListener('click', nextSlide);
+  
+  btnPrev.addEventListener('click', prevSlide);
 })();

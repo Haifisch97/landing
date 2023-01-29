@@ -1,6 +1,12 @@
-(function activeBurger(){
-    if (document.getElementById("burger-bar").style.display !== "none"){
-    document.getElementById("top-nav").classList.toggle("active");
-    document.getElementById("burger-bar").classList.toggle("change");
+(function (){
+
+    function activeBurger () { 
+        if (document.querySelector('.burger-menu').style.display !== "none"){
+            document.querySelector('.header__navigation').classList.toggle("active");
+            document.querySelector('.burger-menu').classList.toggle("change");
+    }
 }
+
+    document.querySelector('.burger-menu').addEventListener('click', activeBurger);
+
 })();
