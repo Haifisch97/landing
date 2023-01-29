@@ -66,7 +66,8 @@ header .container {
 }
 
 .burger-menu {
-    position: relative;
+    position: absolute;
+    right: 0px;
     padding: 5px;
     height: 36px;
     width: 36px;

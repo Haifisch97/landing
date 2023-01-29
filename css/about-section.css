@@ -66,6 +66,10 @@
     border-radius: 50%;
 }
 
+.card-image {
+    width: 65%;
+}
+
 .about .customers .customers__image {
     width: 100%;
     display: block;

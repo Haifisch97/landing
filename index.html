@@ -82,7 +82,7 @@
             <div class="about__customers customers">
                 <div class="customers__container">
                     <p class="customers__quantity" id="grandsize">1400+</p>
-                    <h3 class="customers__title" >Satisfied customers</h3>
+                    <h3 class="customers__title">Satisfied customers</h3>
                     <p class="customers__paragraph">
                         So many people have already trusted us.
                         This number is constantly growing thanks to the positive feedback from our customers.
@@ -135,7 +135,24 @@
             </div>
         </section>
         <section class="career" id="career">
-            <img class="career__image" src="img/tricgirl.jpg" alt="girl have training">
+            <div class="career__slider slider">
+                <button class="slider__button previous__slide">pre</button>
+                <div class="career__slide slide">
+                    <img class="career__image slide__image" src="img\tricgirl.jpg" alt="girl have training">
+                </div>
+                <div class="career__slide slide">
+                    <img class="career__image slide__image" src="img\girl-in-gym.jpg" alt="girl have training">
+                </div>
+                <div class="career__slide slide">
+                    <img class="career__image slide__image" src="img\man-and-women-push-up.jpg"
+                        alt="man and women have training">
+                </div>
+                <div class="career__slide slide">
+                    <img class="career__image slide__image" src="img\women-run-on-treadmill.jpg"
+                        alt="women run on treadmill">
+                </div>
+                <button class="slider__button next__slide">next</button>
+            </div>
             <div class="career__joblist">
                 <h3 class="career__title">Search Our Joblist</h3>
                 <p class="career__paragraph">
@@ -218,7 +235,8 @@
         </div>
 
     </footer>
-    <script src="js\scripts.js"></script>
+    <script src="js\burger-menu.js"></script>
+    <script src="js\career-slider.js"></script>
 </body>
 
 </html>

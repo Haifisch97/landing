@@ -1,6 +1,6 @@
 .career__image {
     display: block;
-    padding: 20px;
+    
     width: 100%; 
 }
 .career__joblist {
@@ -16,6 +16,12 @@
 .career__paragraph {
     font-size: 18px;
     font-weight: 300;
+}
+
+.career__slider {
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
 .career__table {
@@ -39,6 +45,20 @@
     border-radius: 15px;
 }
 
+.slider__button {
+    height: 25px;
+    margin: 10px;
+}
+
+.career__slide {
+    width: 0%;
+}
+
+.active-slide {
+    width: 100%;
+}
+
+
 @media (min-width:860px) {
     .career__table-header {
         font-size: 20px;
@@ -55,7 +75,7 @@
     .career__table {
         grid-area: 2/1/3/3;
     }
-    .career__image {
+    .career__slider {
         grid-area: 1/2/2/3;
     }
     .career__joblist{
