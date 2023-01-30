@@ -9,7 +9,7 @@
 
 .about .card {
     width: 100%;
-    min-height: 460px;
+    min-height: 480px;
     border-width: 2px;
     border-style: solid;
     border-color: var(--box-color-light);
